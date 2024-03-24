@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', Tahoma, GVerdana, sans-serif;
+}
+
+.collapse_container {
+  display: none;
+  width: 500px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+  padding: 10px 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.collapse_button {
+  color: #fff;
+  background-color: #0069d9;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.collapse_button:hover {
+  background-color: #004b9b;
+}
+
+.collapse_button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
